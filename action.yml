@@ -1,0 +1,24 @@
+name: 'Update Spread Sheet'
+description: 'Add Additional Rows To Spread Sheet'
+author: '[Inmost]'
+
+inputs:
+  GOOGLE_CLIENT_ID:
+    description: 'Google Client ID'
+    required: true
+  GOOGLE_CLIENT_SECRET:
+    description: 'Google Client Secret'
+    required: true
+  GOOGLE_REFRESH_TOKEN:
+    description: 'Google Refresh Token'
+    required: true
+  GOOGLE_SHEET_ID:
+    description: 'Google Sheet ID'
+    required: true
+  INPUT_FILE:
+    description: 'Path To File With JSON'
+    required: true
+
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
