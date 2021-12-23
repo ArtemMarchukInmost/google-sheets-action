@@ -47,10 +47,10 @@ function getSheetEndRow() {
             return;
         }
 
-        const responseData = res.data;
-        lastSheetRow = responseData ? responseData.values.length + 1 : 1;
+        const responseData = res.data.values;
+        lastSheetRow = responseData ? responseData.length + 1 : 1;
 
-        writeSheet(INPUT_ROWS)
+        writeSheet(INPUT_ROWS);
     });
 }
 
