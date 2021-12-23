@@ -44,7 +44,7 @@ Your Sheet ID (see [Environment Set Up](#Environment-Set-Up) for more details)
 
 Required
 
-Input To Your JSON File with rows (see [Example](https://github.com/ArtemMarchukInmost/google-sheets-action/blob/main/.github/test.json) for more details)
+Path To Your JSON File with rows (see [Example](https://github.com/ArtemMarchukInmost/google-sheets-action/blob/main/.github/test.json) for more details)
 
 ### Environment Set Up
 
