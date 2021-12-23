@@ -47,7 +47,7 @@ function getSheetEndRow() {
             return;
         }
 
-        lastSheetRow = res.data.values.length + 1;
+        lastSheetRow = (res.data?.values.length || 0) + 1;
 
         writeSheet(INPUT_ROWS)
     });
