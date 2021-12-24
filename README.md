@@ -1,6 +1,6 @@
-# google-drive-upload-action
+# google-drive-sheets-action
 
-This action upload your file to google drive folder
+This action upload add rows in the end of your sheet
 
 ## Usage Example
 
